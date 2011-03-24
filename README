@@ -1,0 +1,13 @@
+j2me JPEG library which does not use JSR 234 and can be used on almost any device.
+Port of Sun's JIMI image library on j2me.
+
+Usage:
+
+//your input image
+Image image = Image.createImage(128, 128);
+
+JPGEncoder encoder = new JPGEncoder();
+int quality = 65;
+byte[] encodedImage = encoder.encode(image, quality);
+
+//now save or send encoded jpeg image
