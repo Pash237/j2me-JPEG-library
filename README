@@ -3,6 +3,8 @@ Port of Sun's JIMI image library on j2me.
 
 Usage:
 
+import com.encoder.jpg.*;
+
 //your input image
 Image image = Image.createImage(128, 128);
 
